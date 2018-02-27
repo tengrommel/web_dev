@@ -1,9 +1,11 @@
-function multiply(a,b) {
-  if (a > 10 || b > 10) {
-    return "that's too hard"
-  } else {
-    return a*b
+var list = ["tiger", "cat", "bear", "bird"];
+
+var user = {
+  name: "John",
+  age: 34,
+  hobby: "Soccer",
+  isMarried: false,
+  shout: function () {
+    console.log("ADDDDDDDDDD")
   }
 }
-
-alert(multiply(5, 10));
